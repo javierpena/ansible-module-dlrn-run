@@ -108,7 +108,7 @@ def run_dlrn_recheck(module, package_name, force_recheck):
 
 
 def run_dlrn(module, args):
-    package_name = None
+    package_name = []
     recheck = False
     force_recheck = False
     if args.get('package_name'):
